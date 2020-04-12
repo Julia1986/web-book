@@ -3,23 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>web-book</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="libs/owlCarousel2/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="libs/owlCarousel2/assets/owl.theme.default.min.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <title>work-book</title>
+    <link rel="stylesheet" type="text/css" href="css/media-xl.css">
+    <link rel="stylesheet" type="text/css" href="css/media-lg.css">
 </head>
 <body>
     <section id="header">
-        <div class="container header">
-            <div class="row">
-                <div class="col-lg-3 col-xl-3 logo">
-                    <img src="img/logo.png" alt="">
-                    WORK-BOOK
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-2 col-xl-2 logo">
+                    WEB-BOOK
                 </div>
-                <div class="col-lg-9 col-xl-9"></div>   
-            </div> 
+                <div class="col-lg-10 col-xl-9 menu">
+                    <div class="row">
+                        <div class="col-lg-12 col-xl-12">
+                            <ul class="menu">
+                                <li><a href="#">Верстка</a></li>
+                                <li><a href="#">Программирование</a></li>
+                                <li><a href="#">Оптимизация</a></li>
+                                <li><a href="#">Дизайн-макет</a></li>
+                             </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>   
+        </div> 
+    </section>
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-xl-12">
+                    <h1 class="portfolio_title">WEB-PORTFOLIO</h1>
+                    <div class="owl-carousel owl-theme" id="carousel1">
+                        <div class=""><a href="https://julia1986.github.io/new-project/lend-page/index.html"><img src="img/portfolio-1.jpg" alt="#"></a></div>
+                        <div class=""><a href="#"><img src="img/2.jpg" alt="#"></a></div>
+                        <div class=""><a href="#"><img src="img/6.jpg" alt="#"></a></div>
+                        <div class=""><a href="#"><img src="img/7.jpg" alt="#"></a></div>
+                        <div class=""><a href="#"><img src="img/11.jpg" alt="#"></a></div>
+                        <div class=""><a href="#"><img src="img/12.jpg" alt="#"></a></div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="libs/owlCarousel2/jquery-3.4.1.min.js"></script>
+    <script src="libs/owlCarousel2/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

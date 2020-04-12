@@ -1,0 +1,17 @@
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    #header{
+        height: 300px;
+    }
+    .logo{
+        padding: 30px 10px 30px 30px;
+        font-size: 120px;
+        line-height: 100px;
+    }
+    .menu li{
+        margin: 30px 10px 20px;
+        padding: 10px 15px;
+    }
+    .menu > li > a{
+        font-size: 20px;
+    }
+}
