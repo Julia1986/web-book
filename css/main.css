@@ -40,6 +40,12 @@ body{
 .menu > li > a:hover{
     color: #e6c619;
 }
+.menu-color > a{
+    color: #e6c619;
+}
+li.menu-color > a:hover{
+    color: #5c5c0a;
+}
 #carousel1{
     position: relative;
 }
@@ -84,14 +90,6 @@ body{
 }
 .library-title{
     text-align: center;
-}
-.library-title h3 > a{
-    color: #007bff;
-    font-family: 'Cormorant Infant', serif;
-    font-weight: 700;
-}
-.library-title h3 > a:hover{
-    color: #e6c619;
 }
 .portfolio_title{
     color: #e6c619;
