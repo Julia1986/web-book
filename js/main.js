@@ -10,10 +10,10 @@ $('#carousel1').owlCarousel({
         600:{
             items:3
         },
-        750:{
+        768:{
             items:4
         },
-        1000:{
+        992:{
             items:5
         }
     }
