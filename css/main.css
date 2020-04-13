@@ -49,15 +49,53 @@ body{
 }
 #carousel1 img:hover{
     opacity: 0.5;
-    transition: .3s;
+    transition: opacity .5s ease;
 }
 .owl-prev, .owl-next{
     position: absolute;
+}
+.owl-carousel .owl-nav button.owl-next:hover,
+.owl-carousel .owl-nav button.owl-prev:hover{
+    background: #121212;
+    color: #007bff;
+}
+.owl-carousel .owl-nav button.owl-next:focus,
+.owl-carousel .owl-nav button.owl-prev:focus{
+    outline: none; /*убрала выделение border при нажатии кнопки*/
+}
+.header-library{
+    position: relative;
+    padding: 0;
+}
+.header-library img{
+    display: block;
+    width: 100%;
+}
+.header-library:before{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(18, 18, 18, 0.7);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 20;
+}
+.library-title{
+    text-align: center;
+}
+.library-title h3 > a{
+    color: #007bff;
+    font-family: 'Cormorant Infant', serif;
+    font-weight: 700;
+}
+.library-title h3 > a:hover{
+    color: #e6c619;
 }
 .portfolio_title{
     color: #e6c619;
     font-family: 'Cormorant Infant', serif;
     font-weight: 700;
     text-align: center;
-
 }
