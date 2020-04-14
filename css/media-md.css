@@ -1,9 +1,12 @@
-@media only screen and (min-width: 769px) and (max-width: 992px) {
+@media only screen and (min-width: 769px) and (max-width: 992px) and (orientation: landscape) {
     #header{
         height: 300px;
     }
     .menu-btn, 
     #menu-checkbox {
+        display: none;
+    }
+    .header_link{
         display: none;
     }
     .logo{
@@ -42,6 +45,9 @@
         width: 400px;
         margin: 15px auto;
     }
+    .header-library_title a{
+        font-size: 30px;
+    }
     .header-library img{
         border-radius: 150px;
     }
@@ -50,5 +56,6 @@
         font-size: 30px;
     }
 }
+
 
 

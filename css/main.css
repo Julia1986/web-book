@@ -7,6 +7,7 @@ a:hover{
     text-decoration: none;
 }
 body{
+    font-family: 'Cormorant Infant', serif;
     background: #121212;
     color: #e6c619;
     padding: 0 15px;
@@ -44,7 +45,7 @@ body{
     color: #696910;
 }
 li.menu-color > a{
-    color: #ec0c0c;
+    color: #81b263;
 }
 #carousel1{
     position: relative;
@@ -72,6 +73,18 @@ li.menu-color > a{
 .header-library{
     position: relative;
     padding: 0;
+    cursor: pointer;
+}
+.header-library_title{
+    text-align: center;
+}
+.header-library_title a{
+    color: #7fbc59;
+    font-weight: 700;
+    font-style: italic;
+}
+.header-library_title a:hover{
+    color: #696910;
 }
 .header-library img{
     display: block;

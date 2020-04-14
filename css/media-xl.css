@@ -7,6 +7,9 @@
     #menu-checkbox {
         display: none;
     }
+    .header_link{
+        display: none;
+    }
     .logo{
         padding: 30px 10px;
         font-size: 120px;
@@ -42,6 +45,9 @@
     .header-library{
         width: 750px;
         margin: 20px auto;
+    }
+    .header-library_title a{
+        font-size: 30px;
     }
     .header-library img{
         border-radius: 150px;

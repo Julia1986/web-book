@@ -6,6 +6,9 @@
     #menu-checkbox {
         display: none;
     }
+    .header_link{
+        display: none;
+    }
     .logo{
         padding: 30px 10px 30px 30px;
         font-size: 100px;
@@ -13,7 +16,7 @@
     }
     .menu li{
         margin: 30px 10px 20px;
-        padding: 10px 10px;
+        padding: 10px 5px;
     }
     .menu > li > a{
         font-size: 20px;
@@ -41,6 +44,9 @@
     .header-library{
         width: 500px;
         margin: 15px auto;
+    }
+    .header-library_title a{
+        font-size: 30px;
     }
     .header-library img{
         border-radius: 150px;

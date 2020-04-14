@@ -93,6 +93,9 @@
     .owl-next{
         right: 30px;
     }
+    .header-library_title a{
+        font-size: 0;
+    }
     .header-library img{
         display: none;
     }
