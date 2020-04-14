@@ -73,6 +73,9 @@
         font-size: 18px;
         text-align: center;
     }
+    #portfolio{
+        margin-bottom: 70px;
+    }
     .portfolio_title{
         padding: 30px 0;
         font-size: 30px;

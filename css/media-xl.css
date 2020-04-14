@@ -79,6 +79,9 @@
     .header-library img{
         border-radius: 150px;
     }
+    #portfolio{
+        margin-bottom: 100px;
+    }
     .portfolio_title{
         padding: 30px 0;
     }
