@@ -17,4 +17,5 @@ $('#carousel1').owlCarousel({
             items:5
         }
     }
-})
+});
+
