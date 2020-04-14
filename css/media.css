@@ -1,8 +1,12 @@
 @media all and (max-width: 576px) {
+    html{
+        height: 100%;
+    }
     body{
         padding: 0;
         margin: 0;
         z-index: 10;
+        height: 100%;
     }
     .container{
         max-width: 768px;
