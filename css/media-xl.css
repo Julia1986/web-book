@@ -1,7 +1,7 @@
 @media only screen and (min-width: 1201px) {
     #header{
         height: 400px;
-        margin-bottom: 50px;
+        margin-bottom: 100px;
     }
     .menu-btn, 
     #menu-checkbox {
@@ -46,8 +46,35 @@
         width: 750px;
         margin: 20px auto;
     }
-    .header-library_title a{
+    .img-menu {
+        display: none;
+    }
+    .header-library_title a,
+    .useful_link-title a{
         font-size: 30px;
+    }
+    #useful_links{
+        margin-bottom: 100px;
+    }
+    .useful_link-img{
+        padding-top: 40px;
+    }
+    .useful_link-img img{
+        height: 150px;
+    }
+    h3.useful_title,
+    h3.about_title{
+        font-size: 40px;
+        padding-bottom: 30px;
+    }
+    #about{
+        border-radius: 30px;
+        margin: 80px;
+        padding: 50px;
+    }
+    .about_text{
+        font-size: 20px;
+        text-align: center;
     }
     .header-library img{
         border-radius: 150px;

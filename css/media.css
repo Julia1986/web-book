@@ -13,6 +13,7 @@
         height: 250px;
         margin: 0;
         padding: 0;
+        margin-bottom: 65px;
     }
     .menu-btn {
         position: absolute;
@@ -26,7 +27,6 @@
         padding: 5px 10px;
         border-radius: 15px;
     }
-    .menu-btn:active,
     .menu-btn:hover {
         color: #696910;
         border: 1px solid #696910;
@@ -71,6 +71,12 @@
         transform: scale(1) translateX(0px);
     }    
 
+    .img-menu img{
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        margin: 30px 30px 30px auto;
+    }
     .logo{
         padding: 40px 10px 30px 30px;
         font-size: 80px;
@@ -98,6 +104,26 @@
     }
     .header-library img{
         display: none;
+    }
+    #useful_links{
+        margin-bottom: 70px;
+    }
+    .useful_link-img img{
+        width: 50%;
+        border-radius: 70%;
+        margin: 25px auto;
+    }
+    .useful_link-title a{
+        font-size: 25px;
+    }
+    #about{
+        border-radius: 30px;
+        margin: 30px;
+        padding: 15px;
+    }
+    .about_text{
+        font-size: 18px;
+        text-align: center;
     }
     .portfolio_title{
         margin-top: 40px;

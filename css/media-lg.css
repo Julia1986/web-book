@@ -1,6 +1,7 @@
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
     #header{
         height: 300px;
+        margin-bottom: 100px;
     }
     .menu-btn, 
     #menu-checkbox {
@@ -45,8 +46,36 @@
         width: 500px;
         margin: 15px auto;
     }
+    .img-menu {
+        display: none;
+    }
     .header-library_title a{
         font-size: 30px;
+    }
+    h3.useful_title,
+    h1.portfolio_title,
+    h3.about_title{
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+    .header-library_title a,
+    .useful_link-title a{
+        font-size: 25px;
+    }
+    #useful_links{
+        margin-bottom: 100px;
+    }
+    .useful_link-img{
+        padding-top: 30px;
+    }
+    #about{
+        border-radius: 30px;
+        margin: 80px;
+        padding: 50px;
+    }
+    .about_text{
+        font-size: 20px;
+        text-align: center;
     }
     .header-library img{
         border-radius: 150px;
