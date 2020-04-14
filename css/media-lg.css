@@ -2,6 +2,10 @@
     #header{
         height: 300px;
     }
+    .menu-btn, 
+    #menu-checkbox {
+        display: none;
+    }
     .logo{
         padding: 30px 10px 30px 30px;
         font-size: 100px;

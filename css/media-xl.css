@@ -3,6 +3,10 @@
         height: 400px;
         margin-bottom: 50px;
     }
+    .menu-btn, 
+    #menu-checkbox {
+        display: none;
+    }
     .logo{
         padding: 30px 10px;
         font-size: 120px;

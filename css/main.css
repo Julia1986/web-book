@@ -36,15 +36,13 @@ body{
     font-style: italic;;
     font-weight: 700;
     border-radius: 15px;
-}
-.menu > li > a:hover{
     color: #e6c619;
 }
-.menu-color > a{
-    color: #ec0c0c;
+.menu > li > a:hover{
+    color: #696910;
 }
-li.menu-color > a:hover{
-    color: #5c5c0a;
+li.menu-color > a{
+    color: #ec0c0c;
 }
 #carousel1{
     position: relative;

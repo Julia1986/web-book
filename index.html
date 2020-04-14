@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="css/media-xl.css">
     <link rel="stylesheet" type="text/css" href="css/media-lg.css">
     <link rel="stylesheet" type="text/css" href="css/media-md.css">
-    <link rel="stylesheet" type="text/css" href="css/media-sm.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
 </head>
 <body>
     <section id="header">
@@ -21,10 +21,19 @@
                     WEB-BOOK
                 </div>
                 <div class="col-md-9 col-lg-9 col-xl-9 menu-list">
+                <div class="row row-menu">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                    <label for="menu-checkbox" class="menu-btn">
+                    <span id="menu">Menu</span>
+                    </label>
+                    </div>
+                </div>    
+                <div class="container-bar">    
                     <div class="row">
                         <div class="col-md-12 col-lg-12 col-xl-12">
-                            <nav class="clearfix">
-                                <ul class="menu clearfix">
+                            <input type="checkbox" id="menu-checkbox" name="">
+                            <div class="overlay">    
+                                <ul class="menu" id="row-bar">
                                     <li><a href="#" class="header_link">Frontend</a></li>
                                     <li><a href="#" class="header_link">Backend</a></li>
                                     <li><a href="#" class="header_link">Design</a></li>
@@ -32,9 +41,10 @@
                                     <li class="menu-color"><a href="#" class="header_link">
                                     !Important</a></li>
                                 </ul>
-                            </nav>
+                            </div>
                         </div>
                     </div>
+                </div>
                     <div class="row header-library">
                         <div class="col-md-12 col-lg-12 col-xl-12">
                             <a href="#"><img src="img/header-library.png" alt=""></a>

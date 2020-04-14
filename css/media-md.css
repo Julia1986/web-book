@@ -1,8 +1,11 @@
-@media only screen and (min-width: 768px) and (max-width: 992px) {
+@media only screen and (min-width: 769px) and (max-width: 992px) {
     #header{
         height: 300px;
     }
-
+    .menu-btn, 
+    #menu-checkbox {
+        display: none;
+    }
     .logo{
         padding: 40px 10px 30px 30px;
         font-size: 80px;
