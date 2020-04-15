@@ -49,7 +49,7 @@
     .img-menu {
         display: none;
     }
-    .header-library_title a,
+    .header-library_title h1,
     .useful_link-title a,
     .frontend_link-title a{
         font-size: 30px;

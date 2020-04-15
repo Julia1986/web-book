@@ -79,12 +79,12 @@ li.menu-color > a{
 .header-library_title{
     text-align: center;
 }
-.header-library_title a{
+.header-library_title h1{
     color: #7fbc59;
     font-weight: 700;
     font-style: italic;
 }
-.header-library_title a:hover{
+.header-library_title h1:hover{
     color: #696910;
 }
 .header-library img{
