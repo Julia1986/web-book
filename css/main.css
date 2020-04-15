@@ -84,9 +84,6 @@ li.menu-color > a{
     font-weight: 700;
     font-style: italic;
 }
-.header-library_title h1:hover{
-    color: #696910;
-}
 .header-library img{
     display: block;
     width: 100%;
