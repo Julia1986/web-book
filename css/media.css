@@ -118,10 +118,12 @@
         border-radius: 70%;
         margin: 25px auto;
     }
-    .useful_link-title a{
+    .useful_link-title a,
+    .frontend_link-title a{
         font-size: 25px;
     }
-    #about{
+    #about,
+    #frontend-pade{
         border-radius: 30px;
         margin: 30px;
         padding: 15px;
@@ -133,7 +135,8 @@
     #portfolio{
         margin-bottom: 50px;
     }
-    .portfolio_title{
+    .portfolio_title,
+    .frontend_title{
         margin-top: 40px;
         padding: 30px 0;
         font-size: 30px;

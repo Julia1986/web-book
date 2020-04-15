@@ -106,10 +106,12 @@
         border-radius: 50%;
         margin: 25px auto;
     }
-    .useful_link-title a{
+    .useful_link-title a,
+    .frontend_link-title a{
         font-size: 25px;
     }
-    #about{
+    #about,
+    #frontend-pade{
         border-radius: 30px;
         margin: 80px;
         padding: 50px;

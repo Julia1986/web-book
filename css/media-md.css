@@ -57,6 +57,7 @@
     }
     h3.useful_title,
     h1.portfolio_title,
+    h3.frontend_title,
     h3.about_title{
         font-size: 30px;
         padding-bottom: 30px;
@@ -64,7 +65,11 @@
     .useful_link-img{
         padding-top: 30px;
     }
-    #about{
+    .frontend_link-title a{
+        font-size: 25px;
+    }
+    #about,
+    #frontend-pade{
         border-radius: 30px;
         margin: 80px;
         padding: 50px;

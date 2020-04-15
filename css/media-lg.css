@@ -49,18 +49,20 @@
     .img-menu {
         display: none;
     }
-    .header-library_title a{
+    .header-library_title a,
+    .frontend_link-title a,
+    .useful_link-title a{
         font-size: 30px;
     }
     h3.useful_title,
     h1.portfolio_title,
+    h3.frontend_title,
     h3.about_title{
         font-size: 30px;
         padding-bottom: 30px;
     }
-    .header-library_title a,
-    .useful_link-title a{
-        font-size: 25px;
+    .header-library_title a{
+    font-size: 25px;
     }
     #useful_links{
         margin-bottom: 100px;
@@ -68,7 +70,8 @@
     .useful_link-img{
         padding-top: 30px;
     }
-    #about{
+    #about,
+    #frontend-pade{
         border-radius: 30px;
         margin: 80px;
         padding: 50px;

@@ -50,7 +50,8 @@
         display: none;
     }
     .header-library_title a,
-    .useful_link-title a{
+    .useful_link-title a,
+    .frontend_link-title a{
         font-size: 30px;
     }
     #useful_links{
@@ -63,11 +64,13 @@
         height: 150px;
     }
     h3.useful_title,
-    h3.about_title{
+    h3.about_title,
+    h3.frontend_title{
         font-size: 40px;
         padding-bottom: 30px;
     }
-    #about{
+    #about,
+    #frontend-pade{
         border-radius: 30px;
         margin: 80px;
         padding: 50px;
@@ -78,6 +81,14 @@
     }
     .header-library img{
         border-radius: 150px;
+    }
+    .frontend_link-img img{
+        width: 200px;
+        font: 200px;
+        background: white;
+    }
+    .row-frontend{
+        padding: 15px 0 40px 0;
     }
     #portfolio{
         margin-bottom: 100px;
