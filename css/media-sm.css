@@ -55,7 +55,7 @@
         color: #e6c619;
         text-decoration: none;
         font-size: 20px;
-        padding: 15px 0;
+        padding: 0 0 30px 0;
         text-transform: uppercase;
         transition: all ease 1s;
     }
@@ -67,7 +67,7 @@
         opacity: 9;
         z-index: 80;
         width: 100vw;
-        height: 100vh;
+        height: 100%;
         transform: scale(1) translateX(0px);
     }    
     .logo{
